@@ -1,3 +1,7 @@
 _site/
+_gh_pages/
 .sass-cache/
 .jekyll-metadata
+
+# Folders to ignore
+node_modules
