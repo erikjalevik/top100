@@ -16,11 +16,13 @@
       -->
 
       {% for post in site.posts %}
-        {% if post.title != null %}
             <a class="sidebar-nav-item {% if page.url == post.url %}active{% endif %}" href="{{ post.url }}">
-              {{ post.title }}
+              {% if post.chart != null %}
+                {{ post.chart }}
+              {% else %}
+                {{ post.title }}
+              {% endif %}
             </a>
-        {% endif %}
       {% endfor %}
 
     </nav>
