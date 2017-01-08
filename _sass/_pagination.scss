@@ -1,12 +1,12 @@
 // Pagination
 //
-// Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+// Super lightweight (HTML-wise) blog pagination. `span`s are provided for when
 // there are no more previous or next posts to show.
 
 .pagination {
   overflow: hidden; // clearfix
   margin: 0 -1.5rem 1rem;
-  color: #ccc;
+  color: $gray-2;
   text-align: center;
 }
 
