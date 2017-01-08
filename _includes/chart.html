@@ -1,9 +1,53 @@
+{% assign chart = site.data[include.year] %}
 
-{% for track in include.data %}
+{% assign countryStatsFile = include.year | append: "_countries" %}
+{% assign countryStats = site.data[countryStatsFile] %}
+
+{% assign yearStatsFile = include.year | append: "_years" %}
+{% assign yearStats = site.data[yearStatsFile] %}
+
+<br />
+
+<h2>The Chart</h2>
+
+{% for track in chart %}
   {% assign mod = forloop.index0 | modulo: 10 %}
-  {% if mod == 0 %}
+  {% if mod == 0 and forloop.index0 != 0 %}
     <br /><br />
   {% endif %}
 
   {% include track.html data=track %}
 {% endfor %}
+
+<br /><br />
+
+<h2 id="countries">Countries</h2>
+
+<table>
+  <tr>
+    <th>Country</th><th>Number of tracks</th>
+  </tr>
+
+{% for country in countryStats %}
+  <tr>
+    <td>{{country.name}}</td><td>{{country.num_tracks}}</td>
+  </tr>
+{% endfor %}
+
+</table>
+
+<br />
+
+<h2 id="years">Release Years</h2>
+
+<table>
+  <tr>
+    <th>Year</th><th>Number of tracks</th>
+  </tr>
+
+{% for year in yearStats %}
+  <tr>
+    <td>{{year.release_year}}</td><td>{{year.num_tracks}}</td>
+  </tr>
+{% endfor %}
+</table>
