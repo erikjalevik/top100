@@ -16,9 +16,9 @@
       -->
 
       {% for post in site.posts %}
-            <a class="sidebar-nav-item {% if page.url == post.url %}active{% endif %}" href="{{ post.url }}">
+            <a class="sidebar-nav-item {% if page.url == post.url %}active{% endif %}" href="{{site.baseurl}}{{ post.url }}">
               {% if post.chart != null %}
-                {{ post.chart }}
+                 {{ post.chart }}
               {% else %}
                 {{ post.title }}
               {% endif %}
