@@ -1,26 +1,34 @@
 {% assign track = include.data %}
 
 <p>
-  <div style="clear: left; float: left; font-size: 28px; height: 2.2em; padding-left: 5px; padding-right: 5px; margin-right: 10px; background-color: #aaaaaa; color: black">
+  {% assign odd = track.chart_pos | modulo: 2 %}
+  {% if odd == 0 %}
+  <div>
+  {% else %}
+  <div style="background-color: #f9f9f9;">
+  {% endif %}
 
-    {% assign pos = track.chart_pos | plus: 0 %}
+    <div style="clear: left; float: left; font-size: 28px; height: 2.1em; padding-left: 5px; padding-right: 5px; margin-right: 10px; background-color: #ccc; color: black">
 
-    {% if pos > 99 %}
-      {{track.chart_pos}}
-    {% elsif pos > 9 %}
-      0{{track.chart_pos}}
-    {% else %}
-      00{{track.chart_pos}}
-    {% endif %}
+      {% assign pos = track.chart_pos | plus: 0 %}
 
+      {% if pos > 99 %}
+        {{track.chart_pos}}
+      {% elsif pos > 9 %}
+        0{{track.chart_pos}}
+      {% else %}
+        00{{track.chart_pos}}
+      {% endif %}
+
+    </div>
+
+
+    <div style="clear: right; float: right; height: 3.2em; padding-left: 5px; padding-right: 5px; text-align: right">
+      <div>{{track.release_year}}</div>
+      <div>{{track.country}}</div>
+    </div>
+
+    <div>{{track.artist}}</div>
+    <div><strong>{{track.title}}</strong></div>
   </div>
-
-  <div style="clear: right; float: right; height: 3.2em; padding-left: 5px; padding-right: 5px; text-align: right">
-    <div>{{track.release_year}}</div>
-    <div>{{track.country}}</div>
-  </div>
-
-  <div>{{track.artist}}</div>
-  <div><strong>{{track.title}}</strong></div>
-
 </p>
