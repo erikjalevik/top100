@@ -7,7 +7,7 @@
 
 .sidebar {
   text-align: right;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
@@ -27,17 +27,50 @@
 }
 
 /* About section */
+.sidebar-about {
+  float: left;
+  width: 50%;
+}
+@media (min-width: 48em) {
+  .sidebar-about {
+    float: none;
+    width: 100%;
+  }
+}
+
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
   font-family: "Abril Fatface", serif;
   font-size: 3.25rem;
+  text-align: left;
+}
+@media (min-width: 48em) {
+  .sidebar-about h1 {
+    text-align: right;
+  }
+}
+
+.sidebar-about p {
+  text-align: left;
+}
+@media (min-width: 48em) {
+  .sidebar-about p {
+    text-align: right;
+  }
 }
 
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
+  float: right;
 }
+@media (min-width: 48em) {
+  .sidebar-nav {
+    float: none;
+  }
+}
+
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
@@ -48,6 +81,21 @@ a.sidebar-nav-item:focus {
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+#copyright {
+  clear: left;
+  float: left;
+}
+@media (min-width: 48em) {
+  #copyright {
+    float: none;
+  }
+}
+
+.clearfix {
+  clear: left;
+  clear: right;
 }
 
 /* Sticky sidebar
