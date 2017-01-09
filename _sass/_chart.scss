@@ -1,0 +1,35 @@
+/*
+ * Styles for the components of a top 100 chart.
+ */
+
+tbody tr td.chart_pos {
+  background-color: $gray-2;
+  color: black;
+  font-size: 28px;
+  width: auto;
+}
+
+tbody tr td.artist,
+tbody tr td.title,
+tbody tr td.year,
+tbody tr td.country {
+  background-color: $gray-1;
+}
+
+tbody tr td.chart_pos,
+tbody tr td.title,
+tbody tr td.country {
+  padding-top: 0px;
+}
+
+tbody tr td.year,
+tbody tr td.country {
+  width: auto;
+  text-align: right;
+}
+
+tbody tr td.artist,
+tbody tr td.year {
+  width: 100%;
+  padding-bottom: 0px;
+}
