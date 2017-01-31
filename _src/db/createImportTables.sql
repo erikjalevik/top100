@@ -11,3 +11,10 @@ CREATE TEMP TABLE poscountryimp (
   chart_pos    INTEGER,
   country      CHARACTER(2)
 );
+
+CREATE TEMP TABLE youtube (
+  id     INTEGER,
+  artist VARCHAR,
+  title  VARCHAR,
+  link   VARCHAR
+);
