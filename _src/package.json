@@ -1,0 +1,16 @@
+{
+  "name": "top100",
+  "version": "0.0.1",
+  "description": "Top 100",
+  "main": "../index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "erikjalevik",
+  "repository": "https://github.com/erikjalevik/top100",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "csv-parse": "^1.2.0",
+    "node-fetch": "^1.6.3"
+  }
+}
