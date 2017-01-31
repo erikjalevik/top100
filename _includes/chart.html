@@ -1,3 +1,12 @@
+<script>
+  function trackClicked(pos) {
+    console.log("iframe" + pos)
+    var elem = document.getElementById("iframe" + pos)
+    elem.style.display = 'block'
+    elem.setAttribute("src", elem.getAttribute("data-src"))
+  }
+</script>
+
 {% assign chart = site.data[include.year] %}
 
 <br />
@@ -10,7 +19,12 @@
     <br /><br />
   {% endif %}
 
-  {% include track.html data=track %}
+  {% if forloop.index0 == 0 %}
+    {% assign showVid = true %}
+  {% else %}
+    {% assign showVid = false %}
+  {% endif %}
+  {% include track.html data=track show=showVid %}
 {% endfor %}
 
 {% include stats.html year=include.year %}

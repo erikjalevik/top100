@@ -2,6 +2,10 @@
  * Styles for the components of a top 100 chart.
  */
 
+table.track {
+  margin-bottom: 0rem;
+}
+
 tbody tr td.chart_pos {
   background-color: $gray-2;
   color: black;
@@ -32,4 +36,8 @@ tbody tr td.artist,
 tbody tr td.year {
   width: 100%;
   padding-bottom: 0px;
+}
+
+.spacer {
+  height: 10px;
 }
