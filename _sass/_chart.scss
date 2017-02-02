@@ -41,3 +41,29 @@ tbody tr td.year {
 .spacer {
   height: 10px;
 }
+
+.collapsedVideo {
+  display: block;
+  width: 100%;
+  max-height: 0px;
+  transition: max-height 0.2s ease-out;
+  text-align: center;
+}
+
+.expandedVideo {
+  display: block;
+  width: 100%;
+  max-height: 170px;
+  transition: max-height 0.4s ease-in;
+  text-align: center;
+}
+
+.collapsedFrame {
+  display: none;
+  width: 100%;
+}
+
+.expandedFrame {
+  display: block;
+  width: 100%;
+}

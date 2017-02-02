@@ -1,9 +1,16 @@
 <script>
   function trackClicked(pos) {
-    console.log("iframe" + pos)
-    var elem = document.getElementById("iframe" + pos)
-    elem.style.display = 'block'
-    elem.setAttribute("src", elem.getAttribute("data-src"))
+    var elem = document.getElementById("track" + pos)
+    var frame = document.getElementById("iframe" + pos)
+    if (elem.className === 'expandedVideo') {
+      elem.className = 'collapsedVideo'
+      frame.className = 'collapsedFrame'
+      frame.setAttribute("src", "")
+    } else {
+      elem.className = 'expandedVideo'
+      frame.className = 'expandedFrame'
+      frame.setAttribute("src", frame.getAttribute("data-src"))
+    }
   }
 </script>
 
