@@ -6,7 +6,7 @@ CREATE TEMP TABLE trackimp (
   chart_pos    INTEGER
 );
 
-CREATE TEMP TABLE poscountryimp (
+CREATE TEMP TABLE trackcountryimp (
   chart        INTEGER,
   chart_pos    INTEGER,
   country      CHARACTER(2)
