@@ -1,12 +1,18 @@
 #!/usr/bin/env node
 
-// Run this and capture the output in a file
-// Import file into temp table youtube:
+// This file reads through a CSV file of tracks and writes their YouTube IDs to stdout.
+//
+// Usage
+// 1. Modify constants at top of file as appropriate.
+// 2. Run this and capture the CSV output in a file.
+// 3. Import file into temp table youtube:
 //   .import ../youtube2016.csv youtube
-// Update track table:
-//  update track
-//  set link = (select link from youtube yt
-//              where yt.id = track.id)
+// 4. Update track table:
+//   update track
+//   set link = (select link from youtube yt
+//               where yt.id = track.id)
+
+const INPUT_FILE = '../_data/2016.csv';
 
 var fs = require('fs'),
     readline = require('readline')
@@ -18,9 +24,9 @@ var fetch = require('node-fetch');
 const urly = require('url');
 
 var reader = readline.createInterface({
-    input: fs.createReadStream('../_data/2016one.csv'),
-    output: process.stdout,
-    terminal: false
+  input: fs.createReadStream(INPUT_FILE),
+  output: process.stdout,
+  terminal: false
 })
 
 reader.on('line', function(line) {
