@@ -1,17 +1,5 @@
-#!/usr/bin/env node
+function parseTrack(line) {
 
-fs = require('fs')
-
-var fs = require('fs'),
-    readline = require('readline')
-
-var reader = readline.createInterface({
-    input: fs.createReadStream('data.psv'),
-    output: process.stdout,
-    terminal: false
-})
-
-reader.on('line', function(line) {
   var firstDotIdx = line.indexOf('.')
   var chartPos = parseInt(line.slice(0, firstDotIdx))
 
@@ -35,15 +23,14 @@ reader.on('line', function(line) {
   line = line.substr(closeBracketIdx + 5)
   var chart = parseInt(line)
 
-  //var trackArray = [artist, title, releaseYear, chart, chartPos]
-  //var outLine = trackArray.join('\\')
-  //console.log(outLine)
+  return {
+    chartPos,
+    artist,
+    title,
+    countries,
+    releaseYear,
+    chart
+  }
+}
 
-  var trackCountryArray = countries.map(function(country) {return [chart, chartPos, country]})
-  trackCountryArray.map(function(entry) {
-    var outLine = entry.join('\\')
-    console.log(outLine)
-    return true;
-  })
-
-})
+module.exports = parseTrack;
