@@ -10,7 +10,8 @@ const INPUT_FILE = 'allCharts.txt';
 const fs = require('fs');
 const readline = require('readline');
 
-const parseTrack = require('./parseTrack');
+//const parseTrack = require('./parseTrack');
+const parseTrack = require('./parseAimpTrack');
 
 var reader = readline.createInterface({
   input: fs.createReadStream(INPUT_FILE),

@@ -1,5 +1,7 @@
 # Full process
 
+If starting from an AIMP playlist, remove any lines except for the playlist lines and make sure to convert the file's encoding to UTF-8. Then modify the constants at the top of `convertAimpPlaylist.js` and run it to produce output suitable for the next step of the process.
+
 Prepare a playlist in the format:
 
 `chart_pos. artist - track_title [country, release_year] ||| chart_year`
