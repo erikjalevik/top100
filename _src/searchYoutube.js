@@ -12,7 +12,7 @@
 //   set link = (select link from youtube yt
 //               where yt.id = track.id)
 
-const INPUT_FILE = '../_data/2016.csv';
+const INPUT_FILE = '../_data/test_input.csv';
 
 var fs = require('fs'),
     readline = require('readline')
@@ -30,6 +30,8 @@ var reader = readline.createInterface({
 })
 
 reader.on('line', function(line) {
+  if (line.startsWith('chart_pos')) return;
+
   const a = parse(line)[0]
   const id = a[0]
   const artist = a[1]
@@ -57,7 +59,7 @@ reader.on('line', function(line) {
     }
     const yid2 = yid.substr(0, closeIdx)
 
-    console.log(id + ',"' + artist + '","' + title + '",' + yid2)
+    console.log(id + ',"' + artist + '","' + title + '",https://www.youtube.com/embed/' + yid2)
   })
 
 })

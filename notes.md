@@ -35,8 +35,13 @@ That produces the stat files for countries and years in `_data`.
 Run `selectOverallStats.sql`.
 That produces the stat files for overall countries and years in `_data`.
 
-Add YouTube links by modifying the input file at the top of `searchYoutube.js`. TODO: output whole link and modify `_includes/track.html` to use it as is.
+## Add YouTube links
+
+First export tracks from the db including their ID to a file, format `id,artist,title`.
+Modify the input file at the top of `searchYoutube.js` so that INPUT_FILE points to the above.
 Run it and follow the instructions at the top of the file.
+
+## Publish
 
 Create a new file in `_posts` following the format of the last one.
 
