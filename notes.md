@@ -13,7 +13,7 @@ For example:
 Then run `formatTrackImports.js` over it capturing the output as `track.bsv`.
 Then run `formatCountryTrackImports.js` over it capturing the output as `track_country.bsv`.
 
-These bsv's needs to be imported into the database.
+These bsv's need to be imported into the database.
 Run `createImportTables.sql`.
 Set separator to backslash.
 Run `.import track.bsv trackimp`
