@@ -4,9 +4,9 @@ permalink:           pretty
 # Setup
 title:               Top 100
 tagline:             All my yearly charts in one place
-url:                 http://erikjalevik.github.io/top100
+url:                 https://erikjalevik.github.io/top100
 paginate:            1
-baseurl:             http://erikjalevik.github.io/top100
+baseurl:             https://erikjalevik.github.io/top100
 
 # Assets
 #
