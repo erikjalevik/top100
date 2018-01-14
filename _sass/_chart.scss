@@ -13,12 +13,16 @@ tbody tr td.chart_pos {
   width: auto;
 }
 
+table.track:hover tr td.chart_pos {
+  background-color: $hover-2;
+}
+
 tbody tr td {
   background-color: $gray-1;
 }
 
 table.track:hover .hoverable {
-  background-color: $gray-1-hover;
+  background-color: $hover-1;
 }
 
 tbody tr td.chart_pos,
