@@ -2,13 +2,17 @@
   function trackClicked(pos) {
     var elem = document.getElementById("track" + pos)
     var frame = document.getElementById("iframe" + pos)
-    if (elem.className === 'expandedVideo') {
-      elem.className = 'collapsedVideo'
-      frame.className = 'collapsedFrame'
+    if (elem.classList.contains('expandedVideo')) {
+      frame.classList.remove('expandedFrame')
+      frame.classList.add('collapsedFrame')
+      elem.classList.remove('expandedVideo')
+      elem.classList.add('collapsedVideo')
       frame.setAttribute("src", "")
     } else {
-      elem.className = 'expandedVideo'
-      frame.className = 'expandedFrame'
+      elem.classList.remove('collapsedVideo')
+      elem.classList.add('expandedVideo')
+      frame.classList.remove('collapsedFrame')
+      frame.classList.add('expandedFrame')
       frame.setAttribute("src", frame.getAttribute("data-src"))
     }
   }

@@ -13,35 +13,68 @@
         00{{track.chart_pos}}
       {% endif %}
     </td>
-    <td class="artist">{{track.artist}}</td>
-    <td class="year" valign="top">{{track.release_year}}</td>
+    <td class="artist hoverable">{{track.artist}}</td>
+    <td class="year hoverable" valign="top">{{track.release_year}}</td>
   </tr>
   <tr>
-    <td class="title"><strong>{{track.title}}</strong></td>
-    <td class="country" valign="bottom">{{track.country}}</td>
+    <td class="title hoverable"><strong>{{track.title}}</strong></td>
+    <td class="country hoverable" valign="bottom">{{track.country}}</td>
   </tr>
 </table>
 
 <div
   id="track{{track.chart_pos}}"
   {% if include.show %}
-    class="expandedVideo"
+    {% if track.link contains 'bandcamp.com' %}
+      class="expandedVideo bandcamp"
+    {% elsif track.link contains 'spotify.com' %}
+      class="expandedVideo spotify"
+    {% elsif track.link contains 'soundcloud.com' %}
+      class="expandedVideo soundcloud"
+    {% else %}
+      class="expandedVideo youTube"
+    {% endif %}
   {% else %}
-    class="collapsedVideo"
+    {% if track.link contains 'bandcamp.com' %}
+      class="collapsedVideo bandcamp"
+    {% elsif track.link contains 'spotify.com' %}
+      class="collapsedVideo spotify"
+    {% elsif track.link contains 'soundcloud.com' %}
+      class="collapsedVideo soundcloud"
+    {% else %}
+      class="collapsedVideo youTube"
+    {% endif %}
   {% endif %}>
 
-  <iframe
-    id="iframe{{track.chart_pos}}"
-    data-src="https://www.youtube.com/embed/{{track.link}}"
-    {% if include.show %}
-      src="https://www.youtube.com/embed/{{track.link}}"
-      class="expandedFrame"
-    {% else %}
-      class="collapsedFrame"
-    {% endif %}
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  {% if track.link %}
+    <iframe
+      id="iframe{{track.chart_pos}}"
+      data-src="{{track.link}}"
+      {% if include.show %}
+        src="{{track.link}}"
+        class="expandedFrame"
+      {% else %}
+        class="collapsedFrame"
+      {% endif %}
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  {% else %}
+    <div
+      id="iframe{{track.chart_pos}}"
+      {% if include.show %}
+        class="expandedFrame"
+      {% else %}
+        class="collapsedFrame"
+      {% endif %}>
+      <p class="error">I am sorry, this track wasn't found.</p>
+      <p class="try">
+        <a href="https://www.google.com/search?q={{track.artist}} {{track.title}}" target="_blank">
+          Try googling?
+        </a>
+      </p>
+    </div>
+  {% endif %}
 </div>
 
 <div class="spacer"></div>

@@ -13,11 +13,12 @@ tbody tr td.chart_pos {
   width: auto;
 }
 
-tbody tr td.artist,
-tbody tr td.title,
-tbody tr td.year,
-tbody tr td.country {
+tbody tr td {
   background-color: $gray-1;
+}
+
+table.track:hover .hoverable {
+  background-color: $gray-1-hover;
 }
 
 tbody tr td.chart_pos,
@@ -43,19 +44,30 @@ tbody tr td.year {
 }
 
 .collapsedVideo {
-  display: block;
+  display: none;
+  background-color: $gray-6;
   width: 100%;
-  max-height: 0px;
-  transition: max-height 0.2s ease-out;
+  height: 0;
   text-align: center;
 }
 
 .expandedVideo {
   display: block;
+  background-color: $gray-6;
   width: 100%;
-  max-height: 170px;
-  transition: max-height 0.4s ease-in;
   text-align: center;
+}
+
+.youTube, .soundcloud {
+  height: 150px;
+}
+
+.bandcamp {
+  height: 120px;
+}
+
+.spotify {
+  height: 80px;
 }
 
 .collapsedFrame {
@@ -66,4 +78,17 @@ tbody tr td.year {
 .expandedFrame {
   display: block;
   width: 100%;
+}
+
+.error {
+  color: $gray-1;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 85%;
+}
+
+.try {
+  color: $gray-1;
+  font-size: 100%;
 }
