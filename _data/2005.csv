@@ -1,51 +1,51 @@
-chart_pos,artist,title,release_year,country
-50,"Gino Soccio",Remember,1982,CA
-49,"Junior Boys","Last Exit",2004,CA
-48,Baxendale,"I Built this City (Justus Köhncke Mix)",2005,DE/UK
-47,"The Light Bulb Project",Shine,2004,SE
-46,"Midnight Star","Midas Touch (Hell Interface Remix)",1999,UK/US
-45,"Johannes Heil","Step into the Light",2004,DE
-44,"Trentemøller",Rykketid,2005,DK
-43,"Nitzer Ebb","Murderous (Phil Kieran Remix)",2004,UK
-42,Unai,"Oh You And I (Trentemøller Mix)",2005,DK/SE
-41,"Britney Spears","Breathe On Me (Holden Vocal)",2004,UK/US
-40,"Junkie XL",Today,2006,NL
-39,"Form & Function",Wonderland,2004,UK
-38,"Lucknow Pact","A Few Drinks, a Few Laughs",2005,SE
-37,"Lucknow Pact","Youth is for the Old",2005,SE
-36,AFX,"I'm Self Employed",2005,UK
-35,"The Radio Dept.","We Would Fall Against the Tide",2002,SE
-34,Planisphere,Teardrop,2002,NL
-33,t.A.T.u.,"Loves Me Not",2005,RU
-32,Ficta,Eli,2004,UK
-31,Slam,"Bright Lights Fading (Slam Return to Mono Mix)",2005,UK
-30,"Ariel Pink's Haunted Graffiti","Gray Sunset",2000,US
-29,C-Bank,Perfect,1987,US
-28,"The Radio Dept.",Deliverance,2005,SE
-27,"Joris Voorn",Shining,2004,NL
-26,"VNV Nation",Saviour,1999,IE
-25,"E'Voke","Arms of Loren",1996,UK
-24,"Joris Voorn",Listen,2005,NL
-23,Ultrasonic,"High Energy",2005,UK
-22,Extrawelt,Soopertrack,2005,DE
-21,"Joris Voorn",Rejected,2004,NL
-20,AFX,PWSteal.Ldpinch.D,2005,UK
-19,Sushi,"One More Chance",2005,UK
-18,Breakage,Prophecy,2005,UK
-17,"VNV Nation",Darkangel,1999,IE
-16,"The MFA",Motherload,2004,UK
-15,"VNV Nation","Distant (Rubicon II)",1999,IE
-14,"Mathew Jonson",Marionette,2004,CA
-13,"Nathan Fake",Dinamo,2005,UK
-12,Petter,"These Days (Chable's Those Days Mix)",2005,AU/SE
-11,Useless,"Red X (Cymbalistic Remix by Dima)",2001,FR
-10,Cat5,Sexy,2005,SE
-9,Duracell,"Space Harrier/Turrican (Live at Barden's Boudoir)",2005,FR
-8,"Ural 13 Diktators","Victorious Night",2000,FI
-7,"The Radio Dept.","This Past Week",2005,SE
-6,"DJ Fresh","Submarines (Pendulum Remix)",2004,UK
-5,"The Reese Project","The Colour Of Love (Underground Resistance Club Mix)",1992,US
-4,"Joris Voorn",Incident,2004,NL
-3,"The Light Bulb Project",Joystick,2004,SE
-2,Pendulum,Masochist,2004,AU
-1,"Marco Passarani",Criticize,2005,IT
+chart_pos,artist,title,release_year,country,link
+50,"Gino Soccio",Remember,1982,CA,https://www.youtube.com/embed/GxNFc41XM_w
+49,"Junior Boys","Last Exit",2004,CA,
+48,Baxendale,"I Built this City (Justus Köhncke Mix)",2005,DE/UK,https://www.youtube.com/embed/gNPKStevNKs
+47,"The Light Bulb Project",Shine,2004,SE,
+46,"Midnight Star","Midas Touch (Hell Interface Remix)",1999,UK/US,https://www.youtube.com/embed/bkXxQL-nyQw
+45,"Johannes Heil","Step into the Light",2004,DE,https://www.youtube.com/embed/VuoCou1udvg
+44,"Trentemøller",Rykketid,2005,DK,https://www.youtube.com/embed/0oqHTiuxQpI
+43,"Nitzer Ebb","Murderous (Phil Kieran Remix)",2004,UK,https://www.youtube.com/embed/ORJt3PJWewI
+42,Unai,"Oh You And I (Trentemøller Mix)",2005,DK/SE,https://www.youtube.com/embed/mUDsYRfinWU
+41,"Britney Spears","Breathe On Me (Holden Vocal)",2004,UK/US,https://www.youtube.com/embed/YV05TmPihts
+40,"Junkie XL",Today,2006,NL,https://www.youtube.com/embed/JlpihtgGq6k
+39,"Form & Function",Wonderland,2004,UK,https://www.youtube.com/embed/Mkfe3BU41Ac
+38,"Lucknow Pact","A Few Drinks, a Few Laughs",2005,SE,https://www.youtube.com/embed/nJ-m-cBCqEE
+37,"Lucknow Pact","Youth is for the Old",2005,SE,https://www.youtube.com/embed/toL3IqJBA38
+36,AFX,"I'm Self Employed",2005,UK,https://www.youtube.com/embed/S3yHbf7XEXU
+35,"The Radio Dept.","We Would Fall Against the Tide",2002,SE,https://www.youtube.com/embed/BxILAI71mgY
+34,Planisphere,Teardrop,2002,NL,https://www.youtube.com/embed/5Wc_wZ7U96o
+33,t.A.T.u.,"Loves Me Not",2005,RU,https://www.youtube.com/embed/VSAGNlKnhnc
+32,Ficta,Eli,2004,UK,https://www.youtube.com/embed/VD0GXshUhyU
+31,Slam,"Bright Lights Fading (Slam Return to Mono Mix)",2005,UK,
+30,"Ariel Pink's Haunted Graffiti","Gray Sunset",2000,US,https://www.youtube.com/embed/xP1_ABpR4Go
+29,C-Bank,Perfect,1987,US,https://www.youtube.com/embed/qOC-LajK7tg
+28,"The Radio Dept.",Deliverance,2005,SE,https://www.youtube.com/embed/eXbdQ3xCbgI
+27,"Joris Voorn",Shining,2004,NL,https://www.youtube.com/embed/F0Q8CweDkjQ
+26,"VNV Nation",Saviour,1999,IE,https://www.youtube.com/embed/kqjpoZ2C3HM
+25,"E'Voke","Arms of Loren",1996,UK,
+24,"Joris Voorn",Listen,2005,NL,https://www.youtube.com/embed/02vpCeqPdMc
+23,Ultrasonic,"High Energy",2005,UK,""
+22,Extrawelt,Soopertrack,2005,DE,https://www.youtube.com/embed/sdl7PZmlGQI
+21,"Joris Voorn",Rejected,2004,NL,https://www.youtube.com/embed/zUz8ZImuNbM
+20,AFX,PWSteal.Ldpinch.D,2005,UK,https://www.youtube.com/embed/Ad4zMZHwjRk
+19,Sushi,"One More Chance",2005,UK,https://www.youtube.com/embed/kLUUtZlvquo
+18,Breakage,Prophecy,2005,UK,https://www.youtube.com/embed/4MFL6FWJUHQ
+17,"VNV Nation",Darkangel,1999,IE,https://www.youtube.com/embed/u3-IPG-XnaU
+16,"The MFA",Motherload,2004,UK,https://www.youtube.com/embed/T7fZ_ET5kKY
+15,"VNV Nation","Distant (Rubicon II)",1999,IE,https://www.youtube.com/embed/zY_65GUB0ZU
+14,"Mathew Jonson",Marionette,2004,CA,https://www.youtube.com/embed/daSid6Lh9Vs
+13,"Nathan Fake",Dinamo,2005,UK,https://www.youtube.com/embed/_tGnfWADAcY
+12,Petter,"These Days (Chable's Those Days Mix)",2005,AU/SE,https://www.youtube.com/embed/ZGs5aChrazA
+11,Useless,"Red X (Cymbalistic Remix by Dima)",2001,FR,https://www.youtube.com/embed/O1UrTj5qTGg
+10,Cat5,Sexy,2005,SE,https://www.youtube.com/embed/UQqQYwKwjqw
+9,Duracell,"Space Harrier/Turrican (Live at Barden's Boudoir)",2005,FR,https://www.youtube.com/embed/2QfwKqy3LyY
+8,"Ural 13 Diktators","Victorious Night",2000,FI,https://www.youtube.com/embed/gBbCMHJVl2Q
+7,"The Radio Dept.","This Past Week",2005,SE,https://www.youtube.com/embed/YuoUTqCBlUk
+6,"DJ Fresh","Submarines (Pendulum Remix)",2004,UK,https://www.youtube.com/embed/R4JuVfLiy5I
+5,"The Reese Project","The Colour Of Love (Underground Resistance Club Mix)",1992,US,https://www.youtube.com/embed/drxJfruQYL0
+4,"Joris Voorn",Incident,2004,NL,https://www.youtube.com/embed/fpYxHjjbkPc
+3,"The Light Bulb Project",Joystick,2004,SE,
+2,Pendulum,Masochist,2004,AU,https://www.youtube.com/embed/T7MdSlyBnG0
+1,"Marco Passarani",Criticize,2005,IT,https://www.youtube.com/embed/QSTKpsRStGE

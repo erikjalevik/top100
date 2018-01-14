@@ -1,101 +1,101 @@
-chart_pos,artist,title,release_year,country
-100,"Kai Del Noi","The Dream (Club Mix)",2005,PL
-99,"DJ Hell","Hot On the Heels of Love (Dave Clarke Remix)",1994,DE/UK
-98,"Air France",Karibien,2006,SE
-97,"Glass Candy","Rolling Down the Hills (Spring Demo)",2007,US
-96,Prism,"The White Shadow",1980,US
-95,Ivan,Fotonovela,1984,ES
-94,"Aril Brikha","Last One",2007,SE
-93,"Coco Bill",Evita,1984,IT
-92,"Enter Shikari","Stand Your Ground; This is Ancient Land",2007,UK
-91,"LCD Soundsystem","Someone Great",2007,US
-90,"Fox the Fox","Precious Little Diamond",1984,NL
-89,Mikado,Romance,1982,FR
-88,Antena,"Camino Del Sol (Joakim Remix)",2006,BE/FR
-87,Wanexa,"The Man from Colours",1982,IT
-86,"Above & Beyond",Hope,2006,UK
-85,Squarepusher,"Welcome to Europe",2006,UK
-84,Klaxons,"Magick (Simian Mobile Disco Remix)",2007,UK
-83,Covenant,"Brave New World",2006,SE
-82,"Vince Watson",MidiSensual,2006,UK
-81,"L.E.B. Harmony","Feeling Love",1978,IT
-80,"Above & Beyond",Tri-State,2006,UK
-79,"New Baccara","Fantasy Boy",1988,ES
-78,"The Teenagers",Homecoming,2007,US
-77,"Smith n Hack","Falling Stars",2007,DE
-76,"Paul Hartnoll","Patchwork Guilt",2007,UK
-75,"Cloetta Paris","Broken Heart Tango",2007,SE
-74,"Angel City","I Won't Let You Down",2005,NL
-73,"Mr. White","The Sun Can't Compare",2006,US
-72,Discomania,"Everybody Wants to be Me",2004,SE
-71,"Para One","Midnight Swim",2006,FR
-70,"O'Gar","Playback Fantasy",1983,IT
-69,"Rhythm Talk","Groovin' (Active Club)",1984,IT
-68,"Ferry Corsten",Kyoto,2004,NL
-67,"Umo Vogue","Just My Love",1984,UK
-66,"Mike Mareen","Dancing in the Dark (Galactica Remix)",1985,DE
-65,Covenant,"Ritual Noise",2006,SE
-64,"Para One",Liege,2006,FR
-63,Trilogy,"Not Love",1982,IT
-62,"Daniel Wang","All Flowers Must Fade",2007,US
-61,Junesex,"Fast Food Messiahs (Carl A. Finlow Mix)",2004,FR/UK
-60,"Glass Candy","Miss Broadway",2007,US
-59,"Purple Flash","We can Make it (1984 Instrumental)",1984,FR
-58,"Papa Dance","W 40 dni dookola swiata",1984,PL
-57,Proceed,Laut,2007,DE
-56,"Katy Gray","Hold Me Tight",1985,IT
-55,"Blotnik Brothers","Love Song",2007,SE
-54,"The Unknown Soldier","Babylon's Gifts",2006,US
-53,"Oppenheimer Analysis","The Devil's Dancers",1982,UK
-52,"The Field","Over the Ice",2007,SE
-51,"Mark Tower","You aren't Fall in Love",1983,IT
-50,Polarius,"Fallin Snow",2003,NL
-49,"Johan Agebjörn","Mega Man II Re-mix",2007,SE
-48,Cellophane,"Music Colours",1984,IT
-47,Heartbreak,"We're Back",2007,UK
-46,Change,"The End",1980,US
-45,"Pascal F.E.O.S.",Synaptic,2006,DE
-44,"Dennis Parker","Like an Eagle",1979,US
-43,Clio,Faces,1985,IT
-42,"Simian Mobile Disco","It's the Beat (The Teenagers Remix)",2007,UK/US
-41,"DC Pöbeln med Guggi & 17","Bettan står i baren, baren är mitt mål, Bettan är baren",1985,SE
-40,Time,"Holding On to love",1986,IT
-39,"Ryuichi Sakamoto","The End Of Europe",1981,JP
-38,Burial,"Distant Lights",2006,UK
-37,Klapto,"Mister Game (Alden Tyrell Vocal Remix)",2006,IT/NL
-36,Annie,Heartbeat,2004,NO
-35,Sophie,"Broken Tale",1986,IT
-34,"Miss Kittin & The Hacker",Hometown,2007,FR
-33,"Kleerup feat. Robyn","With Every Heartbeat",2007,SE
-32,Squarepusher,"Tommib Help Buss",2004,UK
-31,"Den Harrow","Future Brain",1985,IT
-30,Thanya,Freedom,1982,IT
-29,Decadance,"On and On (Fears Keep On) (Dub Version)",1983,IT
-28,Covenant,"The Men",2006,SE
-27,"Popular Computer","Next Level Pope",2006,FR
-26,"Bloc Party","Where is Home? (Burial Remix)",2007,UK
-25,Zombi,Sapphire,2006,US
-24,"Blank & Jones","Perfect Silence (Martin Roth Hardtrance Remix)",2004,DE
-23,"Sally Shapiro","Jackie Jackie (Spend this Winter with Me) (Dyylan's Subzero Nocturne)",2008,FR/SE
-22,Venise,Roissy,1988,IT
-21,Komatrohn,"Statist 2.0",2005,SE
-20,Triola,"Leuchtturm (Wighnomys Polarzip)",2005,DE
-19,Legowelt,"Hazy City Nights",2004,NL
-18,"Din stalker","Herr Reporter",2007,SE
-17,"Red White Rose","No one Puts Baby in the Corner",2003,SE
-16,Alba,"Only Music Survives",1985,IT
-15,"Joe Yellow","Lover to Lover",1983,IT
-14,"Sophie Rimheden feat. Annika Holmberg","Can You Save Me? (Mont Ventoux Remix)",2007,SE
-13,EMAK,"Tanz in den Himmel",1982,DE
-12,"Above & Beyond","Alone Tonight",2006,UK
-11,Squarepusher,Planetarium,2006,UK
-10,"Rupesh Cartel","Ghost White (Ralf and Iza Remix)",2007,SE
-9,Legowelt,"Congo Zombie",2005,NL
-8,"Para One","Ski Lesson Blues",2006,FR
-7,"Angie Care","Your Mind",1984,IT
-6,"Man Friday","Winners (Larry Levan Demo Mix)",1986,US
-5,"Sally Shapiro","My Fantasy",2008,SE
-4,"Squadra Blanco","The Night Must Fall",2002,NL
-3,"Sally Shapiro","Skating in the Moonshine",2007,SE
-2,"The Hasbeens","Make the World Go Away",2006,NL
-1,G.A.N.G.,"KKK (Club Mix)",1983,IT
+chart_pos,artist,title,release_year,country,link
+100,"Kai Del Noi","The Dream (Club Mix)",2005,PL,https://www.youtube.com/embed/URAibGcmOIU
+99,"DJ Hell","Hot On the Heels of Love (Dave Clarke Remix)",1994,DE/UK,https://www.youtube.com/embed/n-VTMO4Xeac
+98,"Air France",Karibien,2006,SE,https://www.youtube.com/embed/5sd8l0HV3gI
+97,"Glass Candy","Rolling Down the Hills (Spring Demo)",2007,US,https://www.youtube.com/embed/pc3EgUcHWm0
+96,Prism,"The White Shadow",1980,US,https://www.youtube.com/embed/z7PIregnv8c
+95,Ivan,Fotonovela,1984,ES,https://www.youtube.com/embed/nrivqafkyqY
+94,"Aril Brikha","Last One",2007,SE,https://www.youtube.com/embed/sB6QKAzh6wU
+93,"Coco Bill",Evita,1984,IT,https://www.youtube.com/embed/R6Zu-U2yoHk
+92,"Enter Shikari","Stand Your Ground; This is Ancient Land",2007,UK,https://www.youtube.com/embed/bGqCkHpQU1U
+91,"LCD Soundsystem","Someone Great",2007,US,https://www.youtube.com/embed/TIChw-9ggyo
+90,"Fox the Fox","Precious Little Diamond",1984,NL,https://www.youtube.com/embed/xMee76YLRQo
+89,Mikado,Romance,1982,FR,https://www.youtube.com/embed/Ly0L5GwKaEA
+88,Antena,"Camino Del Sol (Joakim Remix)",2006,BE/FR,https://www.youtube.com/embed/GQLnq3PsFZ8
+87,Wanexa,"The Man from Colours",1982,IT,https://www.youtube.com/embed/cudVKnQdwfQ
+86,"Above & Beyond",Hope,2006,UK,https://www.youtube.com/embed/hUVobjqgzFE
+85,Squarepusher,"Welcome to Europe",2006,UK,https://www.youtube.com/embed/hhPXZ93AoXw
+84,Klaxons,"Magick (Simian Mobile Disco Remix)",2007,UK,https://www.youtube.com/embed/pFG6ImWhxlY
+83,Covenant,"Brave New World",2006,SE,https://www.youtube.com/embed/yBS6WaS0Sfk
+82,"Vince Watson",MidiSensual,2006,UK,https://www.youtube.com/embed/IMqoS0hDfis
+81,"L.E.B. Harmony","Feeling Love",1978,IT,https://www.youtube.com/embed/l7ViBZe017M
+80,"Above & Beyond",Tri-State,2006,UK,
+79,"New Baccara","Fantasy Boy",1988,ES,https://www.youtube.com/embed/NRK7xcx5oOA
+78,"The Teenagers",Homecoming,2007,US,https://www.youtube.com/embed/ngHDYzhDBk4
+77,"Smith n Hack","Falling Stars",2007,DE,https://www.youtube.com/embed/g6F-MNLf3T0
+76,"Paul Hartnoll","Patchwork Guilt",2007,UK,https://www.youtube.com/embed/wAwXBuBD6Fw
+75,"Cloetta Paris","Broken Heart Tango",2007,SE,https://www.youtube.com/embed/FArYp2oK7Zw
+74,"Angel City","I Won't Let You Down",2005,NL,https://www.youtube.com/embed/0rKPd2mmF3Q
+73,"Mr. White","The Sun Can't Compare",2006,US,https://www.youtube.com/embed/tdIQTEYXDP4
+72,Discomania,"Everybody Wants to be Me",2004,SE,
+71,"Para One","Midnight Swim",2006,FR,https://www.youtube.com/embed/s48okd4ug3o
+70,"O'Gar","Playback Fantasy",1983,IT,https://www.youtube.com/embed/G2owvwKrq3E
+69,"Rhythm Talk","Groovin' (Active Club)",1984,IT,https://www.youtube.com/embed/JiNQv8ptcuc
+68,"Ferry Corsten",Kyoto,2004,NL,https://www.youtube.com/embed/0cY2utyN4pA
+67,"Umo Vogue","Just My Love",1984,UK,https://www.youtube.com/embed/DPJ60Ar_KGk
+66,"Mike Mareen","Dancing in the Dark (Galactica Remix)",1985,DE,https://www.youtube.com/embed/3J_NUc1uOZo
+65,Covenant,"Ritual Noise",2006,SE,https://www.youtube.com/embed/dnlGEQ1NUsk
+64,"Para One",Liege,2006,FR,https://www.youtube.com/embed/KF9TMZBETfA
+63,Trilogy,"Not Love",1982,IT,https://www.youtube.com/embed/vMVImwpoLv4
+62,"Daniel Wang","All Flowers Must Fade",2007,US,https://www.youtube.com/embed/R6ZmSneHbe4
+61,Junesex,"Fast Food Messiahs (Carl A. Finlow Mix)",2004,FR/UK,https://www.youtube.com/embed/FoMh-8ljn_U
+60,"Glass Candy","Miss Broadway",2007,US,https://www.youtube.com/embed/5RXiEOm-aI8
+59,"Purple Flash","We can Make it (1984 Instrumental)",1984,FR,https://www.youtube.com/embed/sWwEMFQ7oQk
+58,"Papa Dance","W 40 dni dookola swiata",1984,PL,https://www.youtube.com/embed/JKRHDuYEwmM
+57,Proceed,Laut,2007,DE,https://www.youtube.com/embed/2oz5vf9kzmo
+56,"Katy Gray","Hold Me Tight",1985,IT,https://www.youtube.com/embed/O0v_jTHHFKU
+55,"Blotnik Brothers","Love Song",2007,SE,https://www.youtube.com/embed/jlqWP5P9SX8
+54,"The Unknown Soldier","Babylon's Gifts",2006,US,https://www.youtube.com/embed/2dM44AayzjA
+53,"Oppenheimer Analysis","The Devil's Dancers",1982,UK,https://www.youtube.com/embed/caP3tAmMEbc
+52,"The Field","Over the Ice",2007,SE,https://www.youtube.com/embed/FQxEVhyvA0I
+51,"Mark Tower","You aren't Fall in Love",1983,IT,https://www.youtube.com/embed/BZCGyyQ6-Iw
+50,Polarius,"Fallin Snow",2003,NL,https://www.youtube.com/embed/tRMiMLz4Vq4
+49,"Johan Agebjörn","Mega Man II Re-mix",2007,SE,https://www.youtube.com/embed/kQ0mUSsYG8Q
+48,Cellophane,"Music Colours",1984,IT,https://www.youtube.com/embed/t-6XycaC4Cg
+47,Heartbreak,"We're Back",2007,UK,https://www.youtube.com/embed/HyrIELrVWac
+46,Change,"The End",1980,US,https://www.youtube.com/embed/p0IG-0camR0
+45,"Pascal F.E.O.S.",Synaptic,2006,DE,https://www.youtube.com/embed/w07WT6O24s4
+44,"Dennis Parker","Like an Eagle",1979,US,https://www.youtube.com/embed/SCsajRlmX4E
+43,Clio,Faces,1985,IT,https://www.youtube.com/embed/kw3mlykbAfk
+42,"Simian Mobile Disco","It's the Beat (The Teenagers Remix)",2007,UK/US,https://www.youtube.com/embed/fVEhaWQS168
+41,"DC Pöbeln med Guggi & 17","Bettan står i baren, baren är mitt mål, Bettan är baren",1985,SE,https://www.youtube.com/embed/QQLs6AStEus
+40,Time,"Holding On to love",1986,IT,https://www.youtube.com/embed/B3CnVnmIoBw
+39,"Ryuichi Sakamoto","The End Of Europe",1981,JP,https://www.youtube.com/embed/1pbcC99C-Y8
+38,Burial,"Distant Lights",2006,UK,https://www.youtube.com/embed/hBlKpshuIA8
+37,Klapto,"Mister Game (Alden Tyrell Vocal Remix)",2006,IT/NL,https://www.youtube.com/embed/TTXAP3zpO0c
+36,Annie,Heartbeat,2004,NO,https://www.youtube.com/embed/f9Wf46tLonM
+35,Sophie,"Broken Tale",1986,IT,https://www.youtube.com/embed/tgBtaExbF14
+34,"Miss Kittin & The Hacker",Hometown,2007,FR,https://www.youtube.com/embed/cqRkB3g22hA
+33,"Kleerup feat. Robyn","With Every Heartbeat",2007,SE,https://www.youtube.com/embed/-ojHWQrm4UM
+32,Squarepusher,"Tommib Help Buss",2004,UK,https://www.youtube.com/embed/qLrHm88tun4
+31,"Den Harrow","Future Brain",1985,IT,https://www.youtube.com/embed/Z0hfQZKOnuE
+30,Thanya,Freedom,1982,IT,https://www.youtube.com/embed/huDqlhLSuow
+29,Decadance,"On and On (Fears Keep On) (Dub Version)",1983,IT,https://www.youtube.com/embed/OFUvxhfmzqs
+28,Covenant,"The Men",2006,SE,https://www.youtube.com/embed/R8J9I7h3pag
+27,"Popular Computer","Next Level Pope",2006,FR,https://www.youtube.com/embed/8YhThIZljO8
+26,"Bloc Party","Where is Home? (Burial Remix)",2007,UK,https://www.youtube.com/embed/xCXhI3psJzE
+25,Zombi,Sapphire,2006,US,https://www.youtube.com/embed/3C55j6tbtaU
+24,"Blank & Jones","Perfect Silence (Martin Roth Hardtrance Remix)",2004,DE,https://www.youtube.com/embed/LNnQZsUyQYA
+23,"Sally Shapiro","Jackie Jackie (Spend this Winter with Me) (Dyylan's Subzero Nocturne)",2008,FR/SE,https://www.youtube.com/embed/YSF7zVsfR7c
+22,Venise,Roissy,1988,IT,https://www.youtube.com/embed/zAI7FjtWXt8
+21,Komatrohn,"Statist 2.0",2005,SE,https://www.youtube.com/embed/Og010w62pXQ
+20,Triola,"Leuchtturm (Wighnomys Polarzip)",2005,DE,https://www.youtube.com/embed/ITy4vurkALo
+19,Legowelt,"Hazy City Nights",2004,NL,https://www.youtube.com/embed/StXneksPi_w
+18,"Din stalker","Herr Reporter",2007,SE,https://www.youtube.com/embed/ljqBeGcRt3I
+17,"Red White Rose","No one Puts Baby in the Corner",2003,SE,https://www.youtube.com/embed/yesGw49OP5g
+16,Alba,"Only Music Survives",1985,IT,https://www.youtube.com/embed/F-W0ad_yWaM
+15,"Joe Yellow","Lover to Lover",1983,IT,https://www.youtube.com/embed/QmgTm3rIPhg
+14,"Sophie Rimheden feat. Annika Holmberg","Can You Save Me? (Mont Ventoux Remix)",2007,SE,
+13,EMAK,"Tanz in den Himmel",1982,DE,https://www.youtube.com/embed/6YPfLxNCs58
+12,"Above & Beyond","Alone Tonight",2006,UK,https://www.youtube.com/embed/8JU2HjLR-ts
+11,Squarepusher,Planetarium,2006,UK,https://www.youtube.com/embed/5crdJgQcR3Q
+10,"Rupesh Cartel","Ghost White (Ralf and Iza Remix)",2007,SE,
+9,Legowelt,"Congo Zombie",2005,NL,https://www.youtube.com/embed/TjVKpXT-6LQ
+8,"Para One","Ski Lesson Blues",2006,FR,https://www.youtube.com/embed/brQaOtJENEI
+7,"Angie Care","Your Mind",1984,IT,https://www.youtube.com/embed/WEwKm_cuSgA
+6,"Man Friday","Winners (Larry Levan Demo Mix)",1986,US,https://www.youtube.com/embed/SZZSLewPEN8
+5,"Sally Shapiro","My Fantasy",2008,SE,https://www.youtube.com/embed/nrwhv1JruGE
+4,"Squadra Blanco","The Night Must Fall",2002,NL,https://www.youtube.com/embed/hBGFbPbsa5k
+3,"Sally Shapiro","Skating in the Moonshine",2007,SE,https://www.youtube.com/embed/n9cim7gWPkM
+2,"The Hasbeens","Make the World Go Away",2006,NL,https://www.youtube.com/embed/b2RVUPe7ME4
+1,G.A.N.G.,"KKK (Club Mix)",1983,IT,https://www.youtube.com/embed/XBSxMNTXgtE
