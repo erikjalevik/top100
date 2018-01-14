@@ -93,10 +93,10 @@ Jekyll takes files in `_posts` as input and generates the static HTML under `_si
 jekyll build
 ```
 
-To server locally, run
+To serve locally, run
 
 ```
-jekyll serve
+jekyll serve --baseurl=
 ```
 
 Defaults to `http://localhost:4000`.
