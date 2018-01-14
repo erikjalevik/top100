@@ -102,3 +102,35 @@ jekyll serve
 Defaults to `http://localhost:4000`.
 
 The templating language is called Liquid and enables those `{% %}` escapes.
+
+# Scraping notes
+
+Soundcloud
+
+Either https://soundcloud.com/search?q=urbani%20undefined for HTML, which doesn't seem to contain the ID we need, or
+
+https://api-v2.soundcloud.com/search?q=urbani undefined&sc_a_id=ef7c0b3a-650b-4014-bea2-5e12b418e534&variant_ids=&facet=model&user_id=391062-863789-473126-321063&client_id=UytiOw5CoZz7YuKteRrXYZQcGjwGohXl&limit=10&offset=0&linked_partitioning=1&app_version=1515756093&app_locale=en
+
+for the API, if possible. For the latter, a top-level array collection is returned, get collection[0].permalink_url. That looks like:
+https://soundcloud.com/slimetime/urbani-undefined-slm167
+
+No, need to get collection[0].uri:
+https://api.soundcloud.com/tracks/15031536
+
+Embed with:
+
+<iframe width="100%" height="166" scrolling="no" frameborder="no"
+  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/277326381&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+
+
+Bandcamp
+
+<iframe style="border: 0; width: 100%; height: 120px;"
+  src="http://bandcamp.com/EmbeddedPlayer/album=959247280/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2537223362/transparent=true/"
+  seamless>
+    <a href="http://tqdukg.com/album/ukg">ukg by t q d</a>
+</iframe>
+
+Spotify
+
+<iframe src="https://open.spotify.com/embed/track/4kAflSfOBf6Wv5ZD5abUvZ" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
