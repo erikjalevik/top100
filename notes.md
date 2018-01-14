@@ -101,7 +101,7 @@ jekyll serve
 
 Defaults to `http://localhost:4000`.
 
-The templating language is called Liquid and enables those `{% %}` escapes.
+The templating language is called Liquid and enables those curly percent escapes.
 
 # Scraping notes
 
