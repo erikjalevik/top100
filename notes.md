@@ -62,16 +62,12 @@ UPDATE track SET link = (SELECT link FROM youtube yt WHERE yt.id = track.id) WHE
 
 ## Generate served files
 
-Open `selectChart.sql` and edit output file to current year.
-Run it.
-That produces the chart file in `_data` which is used by the site.
+```
+cd _src
+node ./generate.js 2017
+```
 
-Open `selectStats.sql` and edit output file to current year.
-Run it.
-That produces the stat files for countries and years in `_data`.
-
-Run `selectOverallStats.sql`.
-That produces the stat files for overall countries and years in `_data`.
+This outputs the chart csv files in the `_data` folder.
 
 ## Publish
 
@@ -104,3 +100,5 @@ jekyll serve
 ```
 
 Defaults to `http://localhost:4000`.
+
+The templating language is called Liquid and enables those `{% %}` escapes.
