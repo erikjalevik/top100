@@ -47,40 +47,37 @@ tbody tr td.year {
   height: 10px;
 }
 
-.collapsedVideo {
-  display: none;
+.video {
   background-color: $gray-6;
   width: 100%;
-  height: 0;
   text-align: center;
+  overflow: hidden;
+}
+
+.collapsedVideo {
+  height: 0;
+  transition: height 0.1s ease-out;
 }
 
 .expandedVideo {
-  display: block;
-  background-color: $gray-6;
-  width: 100%;
-  text-align: center;
+  transition: height 0.4s ease-out;
 }
 
-.youTube, .soundcloud {
+/* Concatenating classes means select only elements that have both classes */
+.expandedVideo.youTube,
+.expandedVideo.soundcloud {
   height: 150px;
 }
 
-.bandcamp {
+.expandedVideo.bandcamp {
   height: 120px;
 }
 
-.spotify {
+.expandedVideo.spotify {
   height: 80px;
 }
 
-.collapsedFrame {
-  display: none;
-  width: 100%;
-}
-
-.expandedFrame {
-  display: block;
+.videoIframe {
   width: 100%;
 }
 

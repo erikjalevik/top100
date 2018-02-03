@@ -22,51 +22,43 @@
   </tr>
 </table>
 
-<div
-  id="track{{track.chart_pos}}"
-  {% if include.show %}
-    {% if track.link contains 'bandcamp.com' %}
-      class="expandedVideo bandcamp"
-    {% elsif track.link contains 'spotify.com' %}
-      class="expandedVideo spotify"
-    {% elsif track.link contains 'soundcloud.com' %}
-      class="expandedVideo soundcloud"
-    {% else %}
-      class="expandedVideo youTube"
-    {% endif %}
-  {% else %}
-    {% if track.link contains 'bandcamp.com' %}
-      class="collapsedVideo bandcamp"
-    {% elsif track.link contains 'spotify.com' %}
-      class="collapsedVideo spotify"
-    {% elsif track.link contains 'soundcloud.com' %}
-      class="collapsedVideo soundcloud"
-    {% else %}
-      class="collapsedVideo youTube"
-    {% endif %}
-  {% endif %}>
 
+{% if track.link contains 'bandcamp.com' %}
+  {% assign platform = 'bandcamp' %}
+{% elsif track.link contains 'spotify.com' %}
+  {% assign platform = 'spotify' %}
+{% elsif track.link contains 'soundcloud.com' %}
+  {% assign platform = 'soundcloud' %}
+{% else %}
+  {% assign platform = 'youTube' %}
+{% endif %}
+
+{% if include.show %}
+  {% assign visibility = 'expandedVideo' %}
+  {% assign frameSource = track.link %}
+{% else %}
+  {% assign visibility = 'collapsedVideo' %}
+  <!-- Removing iframe src prevents hidden iframes from loading -->
+  {% assign frameSource = '' %}
+{% endif %}
+
+<div
+  id="video{{track.chart_pos}}"
+  class="video {{platform}} {{visibility}}"
+>
   {% if track.link %}
     <iframe
       id="iframe{{track.chart_pos}}"
+      class="videoIframe"
       data-src="{{track.link}}"
-      {% if include.show %}
-        src="{{track.link}}"
-        class="expandedFrame"
-      {% else %}
-        class="collapsedFrame"
-      {% endif %}
+      src="{{frameSource}}"
       frameborder="0"
       allowfullscreen>
     </iframe>
   {% else %}
     <div
       id="iframe{{track.chart_pos}}"
-      {% if include.show %}
-        class="expandedFrame"
-      {% else %}
-        class="collapsedFrame"
-      {% endif %}>
+      class="videoIframe"
       <p class="error">I am sorry, this track wasn't found.</p>
       <p class="try">
         <a href="https://www.google.com/search?q={{track.artist}} {{track.title}}" target="_blank">
