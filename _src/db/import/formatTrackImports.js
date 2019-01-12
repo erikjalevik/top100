@@ -5,7 +5,7 @@
 //
 // The order is artist, title, releaseYear, chart, chartPos.
 
-const INPUT_FILE = '2017.txt';
+const INPUT_FILE = '2018.txt';
 
 const fs = require('fs');
 const readline = require('readline');
@@ -13,7 +13,7 @@ const readline = require('readline');
 const parseTrack = require('./parseTrack');
 
 var reader = readline.createInterface({
-  input: fs.createReadStream(INPUT_FILE),
+  input: fs.createReadStream(INPUT_FILE, {encoding: "utf8"}),
   output: process.stdout,
   terminal: false
 })

@@ -1,8 +1,8 @@
 // This file takes an AIMP playlist file in format aimppl4 and spits out
 // a list in the format accepted by formatTrackImports.js.
 
-const INPUT_FILE = '2017.aimppl4';
-const CHART_YEAR = '2017';
+const INPUT_FILE = '2018.aimppl4';
+const CHART_YEAR = '2018';
 
 const fs = require('fs');
 const readline = require('readline');
@@ -13,10 +13,12 @@ var reader = readline.createInterface({
   terminal: false
 })
 
+let chartPos = 0;
 reader.on('line', function(line) {
+  chartPos += 1;
   const t = parseAimpTrack(line);
   if (t) {
-    var outLine = `${t.chartPos}. ${t.artist} - ${t.title} [, ${t.releaseYear}] ||| ${CHART_YEAR}`;
+    var outLine = `${chartPos}. ${t.artist} - ${t.title} [, ${t.releaseYear}] ||| ${CHART_YEAR}`;
     console.log(outLine);
   }
 });

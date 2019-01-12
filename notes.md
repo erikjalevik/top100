@@ -4,7 +4,7 @@
 
 If starting from an AIMP playlist, remove any lines except for the playlist lines and make sure to convert the file's encoding to UTF-8. Then modify the constants at the top of `convertAimpPlaylist.js` and run it to produce output suitable for the next step of the process.
 
-Prepare a playlist in the format:
+This prepares a playlist in the format:
 
 `chart_pos. artist - track_title [country, release_year] ||| chart_year`
 
@@ -12,12 +12,20 @@ For example:
 
 `1. Dead Can Dance - Persephone (The Gathering of Flowers) [AU/UK, 1987] ||| 2016`
 
+Add in the missing bits in this list, e.g. country.
+
 Then run `formatTrackImports.js` over it capturing the output as `track.bsv`.
 Then run `formatCountryTrackImports.js` over it capturing the output as `track_country.bsv`.
 
 ## Import new chart into db
 
 These bsv's need to be imported into the database.
+
+```
+cd ..
+sqlite3.exe .\top100db.db
+```
+
 Run `.read createImportTables.sql`.
 Set separator to backslash: `.separator \`.
 Run `.import import/track.bsv trackimp`
