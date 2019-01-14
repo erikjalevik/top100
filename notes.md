@@ -14,8 +14,9 @@ For example:
 
 Add in the missing bits in this list, e.g. country.
 
+Modify the constants at the top of the two script files below.
 Then run `formatTrackImports.js` over it capturing the output as `track.bsv`.
-Then run `formatCountryTrackImports.js` over it capturing the output as `track_country.bsv`.
+Then run `formatTrackCountryImports.js` over it capturing the output as `track_country.bsv`.
 
 ## Import new chart into db
 
@@ -59,6 +60,7 @@ Modify the input file at the top of `searchYoutube.js` so that INPUT_FILE points
 Run the script and capture the CSV output in a file. Then import the file into the temp table `youtube`:
 
 ```
+.mode csv
 .import youtubelinks2017.csv youtube
 ```
 
