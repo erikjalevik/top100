@@ -2,7 +2,12 @@
 
 ## Preprocess
 
-If starting from an AIMP playlist, remove any lines except for the playlist lines and make sure to convert the file's encoding to UTF-8. Then modify the constants at the top of `convertAimpPlaylist.js` and run it to produce output suitable for the next step of the process.
+If starting from an AIMP playlist, remove any lines except for the playlist lines and make sure to convert the file's encoding to UTF-8. Then run `_src/db/import/convertAimpPlaylist.js` to produce output suitable for the next step of the process:
+
+```
+cd _src/db/import
+node convertAimpPlaylist.js top100.aimppl4 2020 > trackImports
+```
 
 This prepares a playlist in the format:
 
@@ -14,12 +19,17 @@ For example:
 
 Add in the missing bits in this list, e.g. country.
 
-Then run `formatTrackImports.js` over it capturing the output as `track.bsv`.
-Then run `formatCountryTrackImports.js` over it capturing the output as `track_country.bsv`.
+Then run:
+
+`node formatTrackImports.js trackImports > track.bsv`.
+
+Then run:
+
+`node formatCountryTrackImports.js trackImports > track_country.bsv`.
 
 ## Import new chart into db
 
-These bsv's need to be imported into the database.
+These bsv's need to be imported into the database. (Note: sqlite3.exe doesn't seem to work in the GitBash terminal, use Powershell in Windows.)
 
 ```
 cd ..

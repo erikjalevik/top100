@@ -5,7 +5,7 @@
 //
 // The order is artist, title, releaseYear, chart, chartPos.
 
-const INPUT_FILE = '2018.txt';
+const INPUT_FILE = process.argv[2];
 
 const fs = require('fs');
 const readline = require('readline');
