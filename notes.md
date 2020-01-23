@@ -69,6 +69,7 @@ Modify the input file at the top of `searchYoutube.js` so that INPUT_FILE points
 Run the script and capture the CSV output in a file. Then import the file into the temp table `youtube`:
 
 ```
+.mode csv
 .import youtubelinks2017.csv youtube
 ```
 

@@ -12,7 +12,7 @@ const { exec } = require('child_process');
 
 // Constants
 
-const ALL_YEARS = [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2017];
+const ALL_YEARS = [2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2017, 2018];
 const DB_NAME = './db/top100db.db';
 
 // Argument parsing
