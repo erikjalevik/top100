@@ -64,7 +64,9 @@ SELECT id, artist, title FROM track WHERE link IS NULL OR link="";
 .output
 ```
 
-Modify the input file at the top of `searchYoutube.js` so that INPUT_FILE points to the file generated above.
+Use `searchYoutube.js` to find the YouTube links:
+
+`node ../searchYoutube.js youtube.csv`
 
 Run the script and capture the CSV output in a file. Then import the file into the temp table `youtube`:
 

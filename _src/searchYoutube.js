@@ -2,7 +2,7 @@
 
 // This file reads through a CSV file of tracks and writes their YouTube embeds to stdout.
 
-const INPUT_FILE = './db/withoutLinks.csv';
+const INPUT_FILE = process.argv[2];
 
 const fs = require('fs');
 const stream = require('stream');
