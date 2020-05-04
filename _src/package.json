@@ -10,7 +10,7 @@
   "repository": "https://github.com/erikjalevik/top100",
   "license": "MPL-2.0",
   "dependencies": {
-    "csv-parse": "^1.2.0",
+    "csv-parse": "^4.8.5",
     "node-fetch": "^1.6.3"
   }
 }
