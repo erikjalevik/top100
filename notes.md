@@ -25,7 +25,7 @@ Then run:
 
 Then run:
 
-`node formatCountryTrackImports.js trackImports > track_country.bsv`.
+`node formatTrackCountryImports.js trackImports > track_country.bsv`.
 
 ## Import new chart into db
 
@@ -59,20 +59,21 @@ First export tracks from the db including their ID to a file, format `id,artist,
 ```
 .mode csv
 .output youtube.csv
-SELECT id, artist, title FROM track WHERE chart=2017; // or
+SELECT id, artist, title FROM track WHERE chart=2020; // or
 SELECT id, artist, title FROM track WHERE link IS NULL OR link="";
 .output
 ```
 
-Use `searchYoutube.js` to find the YouTube links:
+Use `searchYoutube.js` to find the YouTube links. Run the script and capture the CSV output in a file:
 
-`node ../searchYoutube.js youtube.csv`
+`node ../searchYoutube.js youtube.csv > youtubelinks2020.csv`
 
-Run the script and capture the CSV output in a file. Then import the file into the temp table `youtube`:
+Then import the file into the temp table `youtube`:
 
 ```
+.read createImportTables.sql (if needed)
 .mode csv
-.import youtubelinks2017.csv youtube
+.import youtubelinks2020.csv youtube
 ```
 
 Update track table:
@@ -85,7 +86,7 @@ UPDATE track SET link = (SELECT link FROM youtube yt WHERE yt.id = track.id) WHE
 
 ```
 cd _src
-node ./generate.js 2017
+node ./generate.js 2020
 ```
 
 This outputs the chart csv files in the `_data` folder.
@@ -98,13 +99,6 @@ Create a new file in `_posts` following the format of the last one.
 
 `_site` is generated content.
 `_posts` is where the source content for each article lives.
-
-# How to scrape YouTube for links
-
-Search through `www.youtube.com/results?search_query=query`.
-Find `yt-uix-tile-link`.
-Track back to previous `href`.
-Check if it starts with `/watch`.
 
 # Jekyll
 
@@ -121,6 +115,8 @@ jekyll serve --baseurl=
 ```
 
 Defaults to `http://localhost:4000`.
+
+To publish, push to branch `gh-pages`.
 
 The templating language is called Liquid and enables those curly percent escapes.
 

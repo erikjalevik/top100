@@ -1,46 +1,49 @@
 code,name,num_tracks
-UK,"United Kingdom",420
-US,"United States",302
+UK,"United Kingdom",473
+US,"United States",310
 SE,Sweden,125
-DE,Germany,103
-IT,Italy,80
-NL,Netherlands,71
-FR,France,57
-CA,Canada,41
-NO,Norway,21
+DE,Germany,107
+IT,Italy,82
+NL,Netherlands,74
+FR,France,61
+CA,Canada,44
+NO,Norway,24
+BE,Belgium,18
+AU,Australia,15
+RU,Russia,15
+FI,Finland,14
 ES,Spain,13
-FI,Finland,13
-AU,Australia,11
-RU,Russia,11
-BE,Belgium,7
+PL,Poland,10
+DK,Denmark,7
 IE,Ireland,7
-PL,Poland,7
-DK,Denmark,6
 JP,Japan,6
+TR,Turkey,5
 HU,Hungary,4
-TR,Turkey,4
+LV,Latvia,4
 UA,Ukraine,4
 AT,Austria,3
 IL,Israel,3
 IS,Iceland,3
 KW,Kuwait,3
+SK,Slovakia,3
 ZA,"South Africa",3
+CH,Switzerland,2
 CL,Chile,2
 IN,India,2
 LT,Lithuania,2
-LV,Latvia,2
 NG,Nigeria,2
 NZ,"New Zealand",2
 AR,Argentina,1
-CH,Switzerland,1
+BR,Brazil,1
 CN,"China, People's Republic of",1
 EE,Estonia,1
+EG,Egypt,1
 GE,Georgia,1
 HR,Croatia,1
 KR,"Korea, South",1
 LB,Lebanon,1
+NA,Namibia,1
 PH,Philippines,1
 RS,Serbia,1
-SK,Slovakia,1
 SY,Syria,1
 VE,Venezuela,1

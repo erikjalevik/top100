@@ -20,6 +20,6 @@ author:
   name:              Erik Jälevik
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist

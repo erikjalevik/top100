@@ -38,19 +38,11 @@ function makeSearchUrl(artist, title) {
 }
 
 function scrapeId(result) {
-  const firstTileIdx = result.indexOf('yt-uix-tile-link')
-  const before = result.substr(0, firstTileIdx)
-  const hrefIdx = before.lastIndexOf('href')
-  const href = before.substr(hrefIdx)
-  const watchIdx = href.indexOf('="')
-  // watch?v=
-  const yid = href.substr(watchIdx + 11)
-  var closeIdx = yid.indexOf('&')
-  if (closeIdx == -1) {
-    closeIdx = yid.indexOf('"')
-  }
-  const yid2 = yid.substr(0, closeIdx)
-  return yid2;
+  const videoIdIdx = result.indexOf('"videoId":"')
+  const after = result.substr(videoIdIdx + 11)
+  const closeIdx = after.indexOf('"')
+  const yid = after.substr(0, closeIdx)
+  return yid;
 }
 
 const lookup = new stream.Transform({
